@@ -14,7 +14,8 @@ def sent_analyzer():
     ''' This code receives the text from the HTML interface and 
         runs sentiment analysis over it using emotion_detector()
         function. The output returned shows emotions and its 
-        score for the provided text.
+        score for the provided text. 
+        1st small update to check github
     '''
     text_to_analyze = request.args.get('textToAnalyze')
     data = emotion_detector(text_to_analyze)
